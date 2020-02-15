@@ -13,16 +13,16 @@ echo '<h1>Hello World!</h1>';
 define('test', 'Hello World!');
 echo test;
 echo '<br>';
-//var die ook veranderd
+//var die ook verander.
 $test = 'Learning PHP';
-$$test = 'Hello World!';
 echo $test;
 echo '<br>';
-echo $$test;
+$test = 'Hello World!';
+echo $test;
 echo '<br>';
 //2 vars die 1 zin maken.
-$test1 = '<h1>Hello<h1>';
-$test2 = '<h1>World!<h1>';
+$test1 = '<h1>Hello';
+$test2 = 'World!</h1>';
 echo $test1;
 echo $test2;
 //array die hello world maakt.
